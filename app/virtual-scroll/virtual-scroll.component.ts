@@ -4,7 +4,7 @@ import {
          AfterViewInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
-import { CdkVirtualScrollViewport } from '@angular/cdk-experimental';
+import { CdkVirtualScrollViewport } from '@angular/cdk/scrolling';
 
 
 @Component({

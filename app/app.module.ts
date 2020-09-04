@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { VirtualScrollComponent } from './virtual-scroll/virtual-scroll.component';
-import { ScrollingModule } from '@angular/cdk-experimental';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ScrollingModule],
